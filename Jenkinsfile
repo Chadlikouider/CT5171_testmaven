@@ -23,7 +23,7 @@ pipeline{
     post {
         success {
             archiveArtifacts allowEmptyArchive: true,
-                artifacts: '**/first_Maven*.jar'
+                artifacts: '**/first_maven*.jar'
         }
     }
 }
